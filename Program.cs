@@ -18,6 +18,8 @@ namespace agua
         ///</summary>
         static int calcularBotella(int minutos)
         {
+                 aguausada = minutos * 12;
+            viewbag.aguausada
             return 0;
         }
 
@@ -26,6 +28,8 @@ namespace agua
         ///</summary>
         static int calcularDiasRestantes(DateTime fechaCumple)
         {
+                datetimespan = DateTime.today - DateTime;
+                viewbag.datetimespan
             return 0;
         }
     }
